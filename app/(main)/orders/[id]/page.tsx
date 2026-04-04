@@ -4,8 +4,8 @@ import { simulasiApiTransactions } from "@/dumyData";
 import DetailOrder from "../components/DetailOrder";
 import useHeaderDetailOrder from "../hooks/useHeaderDetailOrder";
 
-const DetailOrderPage = () => {
 
+const DetailOrderPage = () => {
     // render header
     useHeaderDetailOrder()
 
