@@ -20,7 +20,7 @@ export const SidebarItem = ({
     name,
     isOpen,
 }: SidebarItemProps) => {
-    const defaultStyleIcon = cn( "w-6 h-6 md:w-6 md:h-6", isOpen ? "md:mr-2 md:inline-block" : "mx-auto md:m-0" )
+    const defaultStyleIcon = cn( "w-6 h-6 md:w-6 md:h-6 mx-auto", isOpen ? "md:mr-2 md:inline-block" : "md:m-0" )
     const ActiveIcon = icon.onActive;
     const InactiveIcon = icon.onInactive;
     const pathName = usePathname();
