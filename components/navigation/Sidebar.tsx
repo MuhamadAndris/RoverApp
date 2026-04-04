@@ -1,3 +1,5 @@
+"use client"
+
 import { useState, type ComponentType } from "react";
 import { cn } from "@/libs/tailwind";
 import { SidebarItem } from "./SidebarItem";

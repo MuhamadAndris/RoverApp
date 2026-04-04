@@ -1,5 +1,5 @@
 export const PATHS = {
-    DASHBOARD: "/",
+    DASHBOARD: "/dashboard",
     AUTH: {
         ROOT: "/auth",
         LOGIN: "/auth/login",
@@ -7,7 +7,7 @@ export const PATHS = {
         LOGOUT: "/auth/logout",
     },
     APP: {
-        DASHBOARD: "/",
+        DASHBOARD: "/dashboard",
         REPORTS: "/reports",
         ORDERS: "/orders",
         NEWORDER: "/orders/new",

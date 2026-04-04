@@ -1,10 +1,5 @@
-import Link from "next/link";
+import { redirect } from "next/navigation";
 
 export default function Home() {
-  return (
-    <>
-      <h1>ini adalah halaman utama</h1>
-      <Link href="/report">ke halaman report</Link>
-    </>
-  )
+  redirect("/dashboard");
 }
