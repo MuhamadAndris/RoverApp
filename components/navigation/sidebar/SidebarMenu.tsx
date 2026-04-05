@@ -53,7 +53,7 @@ interface MenuSidebarProps {
 
 const SidebarMenu = ({ isOpen }: MenuSidebarProps) => {
     return (
-        <nav className="grid grid-cols-3 md:flex gap-1 md:justify-start md:flex-col  md:p-0 text-gray-700 ">
+        <nav className="grid grid-cols-4 md:flex gap-1 md:justify-start md:flex-col  md:p-0 text-gray-700 ">
             {listMenu.map((item) => {
                 return (
                     <MenuItem key={item.path} name={item.name} icon={item.icon} path={item.path} isOpen={isOpen} /> 
