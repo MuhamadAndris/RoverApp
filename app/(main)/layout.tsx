@@ -1,6 +1,6 @@
 "use client"
 
-import Sidebar from "@/components/navigation/Sidebar";
+import Sidebar from "@/components/navigation/sidebar/Sidebar";
 import NavbarContext from "@/contexts/navbar/NavbarContext";
 import { ProductProvider } from "@/contexts/product/ProductProvider";
 import { CartProvider } from "@/contexts/cart/CartProvider";

@@ -12,5 +12,6 @@ export const PATHS = {
         ORDERS: "/orders",
         NEWORDER: "/orders/new",
         PROFILE: "/profile",
+        PRODUCTS: "/products",
     }
 } as const;

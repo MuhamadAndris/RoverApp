@@ -4,7 +4,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import type { ComponentType } from "react";
 
-type SidebarItemProps = {
+type MenuItemProps = {
     path: string;
     icon: {
         onActive: TablerIcon | ComponentType<{className?: string}>;
@@ -14,12 +14,12 @@ type SidebarItemProps = {
     isOpen: boolean;
 }
 
-export const SidebarItem = ({
+const MenuItem = ({
     path,
     icon,
     name,
     isOpen,
-}: SidebarItemProps) => {
+}: MenuItemProps) => {
     const defaultStyleIcon = cn( "w-6 h-6 md:w-6 md:h-6 mx-auto", isOpen ? "md:mr-2 md:inline-block" : "md:m-0" )
     const ActiveIcon = icon.onActive;
     const InactiveIcon = icon.onInactive;
@@ -79,3 +79,5 @@ export const SidebarItem = ({
         </Link> 
     )
 }
+
+export default MenuItem;
